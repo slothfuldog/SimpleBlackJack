@@ -63,6 +63,9 @@ public class blackJack {
         if(b == 13){
             b = 12;
         }
+        else if( b == 0){
+            b = 1;
+        }
         return b;
     }
 
